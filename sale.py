@@ -4,10 +4,10 @@
 from trytond.pool import PoolMeta
 
 __all__ = ['SaleRuleCondition']
-__metaclass__ = PoolMeta
 
 
 class SaleRuleCondition:
+    __metaclass__ = PoolMeta
     __name__ = 'sale.rule.condition'
 
     @classmethod
